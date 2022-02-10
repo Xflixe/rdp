@@ -84,6 +84,8 @@ RUN rm -f /etc/apt/sources.list && \
 	nginx \
 	openvpn \
 	ffmpeg \
+	default-jre \
+	default-jdk \
 	pluma && \
 #Fluxbox
 	apt-get install -y /app/.vubuntu/assets/packages/fluxbox.deb && \
